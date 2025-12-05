@@ -1,4 +1,7 @@
 package customexception;
 
-public class BrokenCarExption {
+public class BrokenCarException extends Exception{
+    public BrokenCarException (String messager){
+        super(messager);
+    }
 }
